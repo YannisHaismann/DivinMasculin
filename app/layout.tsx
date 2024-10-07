@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
 import { Lexend, Poppins } from "next/font/google";
 import localFont from "next/font/local";
+import Head from "next/head";
 import Banner from "./components/Banner";
 import CTASection from "./components/CTASection";
+import FacebookPixel from "./components/FacebookPixel";
 import Footer from "./components/Footer";
 import "./globals.css";
 
@@ -39,7 +41,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="fr">
+      <Head>
+        <FacebookPixel />
+      </Head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${lexend.variable} ${lexend.className} ${poppins.variable} ${poppins.className} antialiased bg-zinc-900 overflow-x-hidden`}
       >
