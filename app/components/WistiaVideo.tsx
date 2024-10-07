@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect } from "react";
 
 const WistiaVideo: React.FC = () => {
   useEffect(() => {
@@ -21,31 +21,48 @@ const WistiaVideo: React.FC = () => {
   }, []);
 
   return (
-    <div className="wistia_responsive_padding" style={{ padding: '55.0% 0 0 0', position: 'relative' }}>
-      <div className="wistia_responsive_wrapper" style={{ height: '100%', left: 0, position: 'absolute', top: 0, width: '100%' }}>
+    <div
+      className="wistia_responsive_padding"
+      style={{ padding: "55.0% 0 0 0", position: "relative" }}
+    >
+      <div
+        className="wistia_responsive_wrapper"
+        style={{
+          height: "100%",
+          left: 0,
+          position: "absolute",
+          top: 0,
+          width: "100%",
+        }}
+      >
         <div
           className="wistia_embed wistia_async_pv19lurrlx seo=true videoFoam=true"
-          style={{ height: '100%', position: 'relative', width: '100%' }}
+          style={{ height: "100%", position: "relative", width: "100%" }}
         >
           <div
             className="wistia_swatch"
             style={{
-              height: '100%',
+              height: "100%",
               left: 0,
               opacity: 0,
-              overflow: 'hidden',
-              position: 'absolute',
+              overflow: "hidden",
+              position: "absolute",
               top: 0,
-              transition: 'opacity 200ms',
-              width: '100%',
+              transition: "opacity 200ms",
+              width: "100%",
             }}
           >
             <img
               src="https://fast.wistia.com/embed/medias/pv19lurrlx/swatch"
-              style={{ filter: 'blur(5px)', height: '100%', objectFit: 'contain', width: '100%' }}
+              style={{
+                filter: "blur(5px)",
+                height: "100%",
+                objectFit: "contain",
+                width: "100%",
+              }}
               alt=""
               aria-hidden="true"
-              onLoad={(e) => (e.currentTarget.parentNode!.style.opacity = '1')}
+              // onLoad={(e) => (e.currentTarget.parentNode!.style.opacity = '1')}
             />
           </div>
         </div>
