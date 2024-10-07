@@ -126,8 +126,8 @@ export default function HowItWorks() {
   return (
     <Section>
       <SectionHeader>
-        <SubH2>Tout le contenu</SubH2>
-        <H2>Comment ça marche ?</H2>
+        <SubH2>Comment ça marche ?</SubH2>
+        <H2>Tu vas un devenir un expert</H2>
       </SectionHeader>
       <ul
         role="list"

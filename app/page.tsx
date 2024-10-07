@@ -23,7 +23,7 @@ export default function Home() {
       <HowItWorks />
       <CTASection
         title="Deviens inoubliable au lit"
-        description="En 90 jours, tu vas apprendre à controller TOTALEMENT ton énergie sexuelle. Fini les éjaculations précoces et l'impuissance."
+        description="En 90 jours, tu vas apprendre à controller TOTALEMENT ton énergie sexuelle. Met fin à tes éjaculations précoces et à ton impuissance."
       />
       <TestimonialSection />
       <PriceSection />
